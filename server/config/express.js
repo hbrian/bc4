@@ -4,7 +4,8 @@ var path = require('path'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
     config = require('./config.js'),
-    listingsRouter = require('../routes/listings.server.routes');
+    listingsRouter = require('../routes/listings.server.routes'),
+    cors = require('cors');
 
 module.exports.init = function() {
   //connect to database
@@ -15,6 +16,8 @@ module.exports.init = function() {
 
   //enable request logging for development debugging
   app.use(morgan('dev'));
+
+  app.use(cors());
 
   //body parsing middleware
   app.use(bodyParser.json());
