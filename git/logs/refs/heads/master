@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 90f709a43da0a9313c2d675718198917e52a4e17 higgy300 <jhigueraballesteros@gmail.com> 1537625701 -0400	clone: from https://github.com/higgy300/CEN3031Assignment4.git
+90f709a43da0a9313c2d675718198917e52a4e17 ce50bc357cf80a12582a37c212600f2980ed35e3 higgy300 <jhigueraballesteros@gmail.com> 1537626020 -0400	commit: uploading files from UF repo
+ce50bc357cf80a12582a37c212600f2980ed35e3 10c3b9c0ec68c335f93e70883190d6a8e0edbf99 higgy300 <jhigueraballesteros@gmail.com> 1537665985 -0400	commit: updated solutions
+10c3b9c0ec68c335f93e70883190d6a8e0edbf99 fb40abd9b91aa534303d95b999e18b16ca8fb7f7 higgy300 <jhigueraballesteros@gmail.com> 1537670554 -0400	commit: updated .gitignore because heroku kept throwing error about not finding config.js
+fb40abd9b91aa534303d95b999e18b16ca8fb7f7 0315b7f11dcb27665614d233a8235d4add7b1dd4 higgy300 <jhigueraballesteros@gmail.com> 1537670747 -0400	commit: updating config.js
+0315b7f11dcb27665614d233a8235d4add7b1dd4 4e612408ff9802445b2eba5d5249f2b0efc44bab higgy300 <jhigueraballesteros@gmail.com> 1537882642 -0400	commit: included files from assignment 3 to test a heroku bug
+4e612408ff9802445b2eba5d5249f2b0efc44bab 986c9921ab464b5ff605d482811201e087be000c higgy300 <jhigueraballesteros@gmail.com> 1537884366 -0400	commit: removed uneccessary files
+986c9921ab464b5ff605d482811201e087be000c b1f77e0ee128785e53983b28abd638aa1c5d97a5 higgy300 <jhigueraballesteros@gmail.com> 1537884735 -0400	commit: updated app.js to make heroku work
+b1f77e0ee128785e53983b28abd638aa1c5d97a5 d65055ac87adf7a7428f0bb9b819f379eb3c119e higgy300 <jhigueraballesteros@gmail.com> 1537887906 -0400	commit: updated to debug heroku deployment issue
+d65055ac87adf7a7428f0bb9b819f379eb3c119e e942f1bf06f29cf5523be672b20630afbe5298df higgy300 <jhigueraballesteros@gmail.com> 1537888939 -0400	commit: updated express.js to test if mongo deprecation of openUri() instead of on()
+e942f1bf06f29cf5523be672b20630afbe5298df 2672b11eb4bc41c00608c8aa24f47ed197fd97a1 higgy300 <jhigueraballesteros@gmail.com> 1537892881 -0400	commit: updated listingFactory to properly delete a listing entry and updated listringController to test heroku deploy access
+2672b11eb4bc41c00608c8aa24f47ed197fd97a1 a8728d5b778184183af979553eb1d1ebddf47e99 higgy300 <jhigueraballesteros@gmail.com> 1537896635 -0400	commit: mentioned current bug to fix with heroku
+a8728d5b778184183af979553eb1d1ebddf47e99 66f8528c852b42ddabd3d9ee26b29fcff01ccd98 higgy300 <jhigueraballesteros@gmail.com> 1537898116 -0400	commit: update listingFactory.js with heroku app url to access database

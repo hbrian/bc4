@@ -1,11 +1,10 @@
-//This file holds any configuration variables we may need 
-//'config.js' is usually ignored by git to protect sensitive information, such as your database's username and password
-
+//This file holds any configuration variables we may need
+//'config.js' is ignored by git to protect sensitive information, such as your database's username and password
+//copy this file's contents to another file 'config.js' and store your MongoLab uri there
 
 module.exports = {
   db: {
-    uri: 'mongodb://hbrian:Tennis123!@ds161225.mlab.com:61225/hbrian_bc3', //place the URI of your mongo database here.
-  }
+    uri: 'mongodb://jhuey:kkdtoro3@ds111913.mlab.com:11913/a4', //place the URI of your mongo database here.
+  },
+  port: 8080
 };
-
-/* Now go to the JSONtoMongo.js file and include this file as a variable named 'config' with a require() */

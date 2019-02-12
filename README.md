@@ -1,3 +1,10 @@
+```diff
+- # Bug 25SEP2018 1:28PM: Heroku fails to fetch from database. GUI for web app works.
+```
+```diff
+- # Bug fix: There was a missing comma on line 5 of client/js/factories/listingFactory.js
+```
+
 # Creating a server-side CRUD module using Express
 In Bootcamp Assignment #1, we created a simple node server that retrieved our listings by responding to GET requests to '/listings'. You are now going to add more functionality to this server that allows us to **create**, **read**, **update**, and **delete** listings from a Mongo database. These tasks are commonly referred to as CRUD. 
 
@@ -72,6 +79,7 @@ The checkPermissions function serves as *middleware* that is invoked before pass
 
 A final note: **order matters** when using middleware. If you place `app.use()` after a request handler, that middleware will not be invoked. Keep this in mind when developing your applications in case you encounter bugs. 
 
+If the concept of middleware is still confusing, you can read [this blog post](https://www.safaribooksonline.com/blog/2014/03/10/express-js-middleware-demystified/) for further information. 
 
 ## Assignment Details
 Now go ahead and clone this assignment's repository. You'll notice that the file structure of the application is now more involved than previous assignments. Browse around and take note of where each part of the application exists. 
